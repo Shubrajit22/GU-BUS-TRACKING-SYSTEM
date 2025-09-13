@@ -7,7 +7,9 @@ export default defineConfig({
     tailwindcss(),
      react(),
   ],
+  preview: {
+    allowedHosts: ["r786.me"],
+  }
 })
-
 
 

@@ -365,7 +365,7 @@
 
 import { WebSocketServer } from "ws";
 
-const wss = new WebSocketServer({ port: 8080 });
+const wss = new WebSocketServer({ port: 5008 });
 const allSockets = [];
 
 wss.on("connection", (socket) => {
